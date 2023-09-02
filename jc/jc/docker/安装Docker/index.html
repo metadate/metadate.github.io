@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../../img/favicon.ico">
+        <title>安装Docker - My Docs</title>
+        <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../../..">My Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../../../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../../dl/" class="nav-link">Dl</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../../../proxypool/" class="nav-link">Proxypool</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">B视频 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../../B%E8%A7%86%E9%A2%91/%E5%BE%85%E7%9C%8B/" class="dropdown-item">待看</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">C书签记录 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../../C%E4%B9%A6%E7%AD%BE%E8%AE%B0%E5%BD%95/searx.space/" class="dropdown-item">Searx.space</a>
+</li>
+                                    
+<li>
+    <a href="../../../../C%E4%B9%A6%E7%AD%BE%E8%AE%B0%E5%BD%95/telegramqun/" class="dropdown-item">Telegramqun</a>
+</li>
+                                    
+<li>
+    <a href="../../../../C%E4%B9%A6%E7%AD%BE%E8%AE%B0%E5%BD%95/%E5%AF%BC%E8%88%AA%E7%BD%91%E7%AB%99/" class="dropdown-item">导航网站</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">D自文章 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../../D%E8%87%AA%E6%96%87%E7%AB%A0/A%E7%BA%A7%E5%86%85%E5%AE%B9/" class="dropdown-item">A级内容</a>
+</li>
+                                    
+<li>
+    <a href="../../../../D%E8%87%AA%E6%96%87%E7%AB%A0/%E8%87%AA%E5%BB%BA%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/" class="dropdown-item">自建搜索引擎</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">H杂 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../../H%E6%9D%82/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%86%85%E5%AE%B9/" class="dropdown-item">个人博客内容</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Chatgpt <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../../chatgpt/chatgptfree/" class="dropdown-item">Chatgptfree</a>
+</li>
+                                    
+<li>
+    <a href="../../../../chatgpt/chatgptfree2/" class="dropdown-item">Free ChatGPT Site List</a>
+</li>
+                                    
+<li>
+    <a href="../../../../chatgpt/chatgptfree3/" class="dropdown-item">ChatGPT 在线体验网站收集列表</a>
+</li>
+                                    
+<li>
+    <a href="../../../../chatgpt/chatgptfree4/" class="dropdown-item">Chatgptfree4</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Jc <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../git%E6%95%99%E7%A8%8B/" class="dropdown-item">Git教程</a>
+</li>
+                                    
+<li>
+    <a href="../../../git%E6%95%99%E7%A8%8B%E8%A1%A5%E5%85%85/" class="dropdown-item">Git教程补充</a>
+</li>
+                                    
+<li>
+    <a href="../../../xuq/" class="dropdown-item">Xuq</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Cloudflared</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../cloudflared/cloudflared%20tunnel/" class="dropdown-item">Cloudflared tunnel</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Docker</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../docker/dockerapp/" class="dropdown-item">Dockerapp</a>
+</li>
+            
+<li>
+    <a href="../../../docker/%E5%AE%89%E8%A3%85Docker/" class="dropdown-item">安装Docker</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Docker compose</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../docker/docker-compose/gitea/" class="dropdown-item">Gitea</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Jc</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../git%E6%95%99%E7%A8%8B/" class="dropdown-item">Git教程</a>
+</li>
+            
+<li>
+    <a href="../../git%E6%95%99%E7%A8%8B%E8%A1%A5%E5%85%85/" class="dropdown-item">Git教程补充</a>
+</li>
+            
+<li>
+    <a href="../../xuq/" class="dropdown-item">Xuq</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Cloudflared</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../cloudflared/cloudflared%20tunnel/" class="dropdown-item">Cloudflared tunnel</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Docker</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../dockerapp/" class="dropdown-item">Dockerapp</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active">安装Docker</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Docker compose</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../docker-compose/gitea/" class="dropdown-item">Gitea</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Linux</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/debian%E7%9A%84%E9%9D%99%E6%80%81IP/" class="dropdown-item">debian的静态IP</a>
+</li>
+            
+<li>
+    <a href="../../linux/linuxHosts/" class="dropdown-item">linuxHosts</a>
+</li>
+            
+<li>
+    <a href="../../linux/openwrt%20lan%E5%8F%A3%E8%AE%BE%E7%BD%AE/" class="dropdown-item">Openwrt lan口设置</a>
+</li>
+            
+<li>
+    <a href="../../linux/pve/" class="dropdown-item">Pve</a>
+</li>
+            
+<li>
+    <a href="../../linux/%E4%B8%80%E9%94%AE%E6%9B%B4%E6%8D%A2%E5%9B%BD%E5%86%85%E8%BD%AF%E4%BB%B6%E6%BA%90/" class="dropdown-item">一键更换国内软件源</a>
+</li>
+            
+<li>
+    <a href="../../linux/%E4%BD%BF%E7%94%A8/" class="dropdown-item">使用</a>
+</li>
+            
+<li>
+    <a href="../../linux/%E6%9B%B4%E6%94%B9PATH/" class="dropdown-item">更改PATH</a>
+</li>
+            
+<li>
+    <a href="../../linux/%E7%A1%AC%E7%9B%98%E4%BF%A1%E6%81%AF/" class="dropdown-item">硬盘信息</a>
+</li>
+            
+<li>
+    <a href="../../linux/%E8%BD%AF%E4%BB%B6%E6%BA%90/" class="dropdown-item">软件源</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Jc</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/git%E6%95%99%E7%A8%8B/" class="dropdown-item">Git教程</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/git%E6%95%99%E7%A8%8B%E8%A1%A5%E5%85%85/" class="dropdown-item">Git教程补充</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/xuq/" class="dropdown-item">Xuq</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Cloudflared</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/cloudflared/cloudflared%20tunnel/" class="dropdown-item">Cloudflared tunnel</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Docker</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/docker/dockerapp/" class="dropdown-item">Dockerapp</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/docker/%E5%AE%89%E8%A3%85Docker/" class="dropdown-item">安装Docker</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Docker compose</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/docker/docker-compose/gitea/" class="dropdown-item">Gitea</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Linux</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/linux/debian%E7%9A%84%E9%9D%99%E6%80%81IP/" class="dropdown-item">debian的静态IP</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/linux/linuxHosts/" class="dropdown-item">linuxHosts</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/linux/openwrt%20lan%E5%8F%A3%E8%AE%BE%E7%BD%AE/" class="dropdown-item">Openwrt lan口设置</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/linux/pve/" class="dropdown-item">Pve</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/linux/%E4%B8%80%E9%94%AE%E6%9B%B4%E6%8D%A2%E5%9B%BD%E5%86%85%E8%BD%AF%E4%BB%B6%E6%BA%90/" class="dropdown-item">一键更换国内软件源</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/linux/%E4%BD%BF%E7%94%A8/" class="dropdown-item">使用</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/linux/%E6%9B%B4%E6%94%B9PATH/" class="dropdown-item">更改PATH</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/linux/%E7%A1%AC%E7%9B%98%E4%BF%A1%E6%81%AF/" class="dropdown-item">硬盘信息</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/linux/%E8%BD%AF%E4%BB%B6%E6%BA%90/" class="dropdown-item">软件源</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Mc</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/mc/1/" class="dropdown-item">1</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Npm</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/npm/53/" class="dropdown-item">53</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Python</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/python/django/" class="dropdown-item">Django</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">文章</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/%E6%96%87%E7%AB%A0/%E6%A0%B8%E5%BC%B9%E7%BA%A7%E6%95%99%E7%A8%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%99%BD%E5%AB%96%E4%B8%8A%E7%99%BE%E4%B8%AA%E8%AE%A2%E9%98%85%E8%8A%82%E7%82%B9%E4%BB%A3%E7%90%86/" class="dropdown-item">核弹级教程：手把手教你白嫖上百个订阅节点</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">系统</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/%E7%B3%BB%E7%BB%9F/1/" class="dropdown-item">1</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">资源</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/2naifeimm.com/" class="dropdown-item">2naifeimm.com</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/300zxdy/" class="dropdown-item">300zxdy</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/PotPlayer%E6%9C%89%E6%83%8A%E5%96%9C/" class="dropdown-item">PotPlayer有惊喜</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/cn1opemapi/" class="dropdown-item">Cn1opemapi</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/%E5%9C%A8%E7%BA%BF%E5%BD%B1%E8%A7%86%E8%A7%A3%E6%9E%90%E6%B5%8B%E8%AF%95/" class="dropdown-item">在线影视解析测试</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Jc</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/git%E6%95%99%E7%A8%8B/" class="dropdown-item">Git教程</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/git%E6%95%99%E7%A8%8B%E8%A1%A5%E5%85%85/" class="dropdown-item">Git教程补充</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/xuq/" class="dropdown-item">Xuq</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Cloudflared</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/cloudflared/cloudflared%20tunnel/" class="dropdown-item">Cloudflared tunnel</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Docker</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/docker/dockerapp/" class="dropdown-item">Dockerapp</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/docker/%E5%AE%89%E8%A3%85Docker/" class="dropdown-item">安装Docker</a>
+</li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Docker compose</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/docker/docker-compose/gitea/" class="dropdown-item">Gitea</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Linux</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/linux/debian%E7%9A%84%E9%9D%99%E6%80%81IP/" class="dropdown-item">debian的静态IP</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/linux/linuxHosts/" class="dropdown-item">linuxHosts</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/linux/openwrt%20lan%E5%8F%A3%E8%AE%BE%E7%BD%AE/" class="dropdown-item">Openwrt lan口设置</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/linux/pve/" class="dropdown-item">Pve</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/linux/%E4%B8%80%E9%94%AE%E6%9B%B4%E6%8D%A2%E5%9B%BD%E5%86%85%E8%BD%AF%E4%BB%B6%E6%BA%90/" class="dropdown-item">一键更换国内软件源</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/linux/%E4%BD%BF%E7%94%A8/" class="dropdown-item">使用</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/linux/%E6%9B%B4%E6%94%B9PATH/" class="dropdown-item">更改PATH</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/linux/%E7%A1%AC%E7%9B%98%E4%BF%A1%E6%81%AF/" class="dropdown-item">硬盘信息</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/linux/%E8%BD%AF%E4%BB%B6%E6%BA%90/" class="dropdown-item">软件源</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Mc</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/mc/1/" class="dropdown-item">1</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Npm</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/npm/53/" class="dropdown-item">53</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Python</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/python/django/" class="dropdown-item">Django</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">文章</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/%E6%96%87%E7%AB%A0/%E6%A0%B8%E5%BC%B9%E7%BA%A7%E6%95%99%E7%A8%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%99%BD%E5%AB%96%E4%B8%8A%E7%99%BE%E4%B8%AA%E8%AE%A2%E9%98%85%E8%8A%82%E7%82%B9%E4%BB%A3%E7%90%86/" class="dropdown-item">核弹级教程：手把手教你白嫖上百个订阅节点</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">系统</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/%E7%B3%BB%E7%BB%9F/1/" class="dropdown-item">1</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">资源</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/%E8%B5%84%E6%BA%90/2naifeimm.com/" class="dropdown-item">2naifeimm.com</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/%E8%B5%84%E6%BA%90/300zxdy/" class="dropdown-item">300zxdy</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/%E8%B5%84%E6%BA%90/PotPlayer%E6%9C%89%E6%83%8A%E5%96%9C/" class="dropdown-item">PotPlayer有惊喜</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/%E8%B5%84%E6%BA%90/cn1opemapi/" class="dropdown-item">Cn1opemapi</a>
+</li>
+            
+<li>
+    <a href="../../linux/jc/%E8%B5%84%E6%BA%90/jc/%E8%B5%84%E6%BA%90/%E5%9C%A8%E7%BA%BF%E5%BD%B1%E8%A7%86%E8%A7%A3%E6%9E%90%E6%B5%8B%E8%AF%95/" class="dropdown-item">在线影视解析测试</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Mc</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../mc/1/" class="dropdown-item">1</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Npm</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../npm/53/" class="dropdown-item">53</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Python</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../python/django/" class="dropdown-item">Django</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">文章</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../%E6%96%87%E7%AB%A0/%E6%A0%B8%E5%BC%B9%E7%BA%A7%E6%95%99%E7%A8%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%99%BD%E5%AB%96%E4%B8%8A%E7%99%BE%E4%B8%AA%E8%AE%A2%E9%98%85%E8%8A%82%E7%82%B9%E4%BB%A3%E7%90%86/" class="dropdown-item">核弹级教程：手把手教你白嫖上百个订阅节点</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">系统</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../%E7%B3%BB%E7%BB%9F/1/" class="dropdown-item">1</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">资源</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../%E8%B5%84%E6%BA%90/2naifeimm.com/" class="dropdown-item">2naifeimm.com</a>
+</li>
+            
+<li>
+    <a href="../../%E8%B5%84%E6%BA%90/300zxdy/" class="dropdown-item">300zxdy</a>
+</li>
+            
+<li>
+    <a href="../../%E8%B5%84%E6%BA%90/PotPlayer%E6%9C%89%E6%83%8A%E5%96%9C/" class="dropdown-item">PotPlayer有惊喜</a>
+</li>
+            
+<li>
+    <a href="../../%E8%B5%84%E6%BA%90/cn1opemapi/" class="dropdown-item">Cn1opemapi</a>
+</li>
+            
+<li>
+    <a href="../../%E8%B5%84%E6%BA%90/%E5%9C%A8%E7%BA%BF%E5%BD%B1%E8%A7%86%E8%A7%A3%E6%9E%90%E6%B5%8B%E8%AF%95/" class="dropdown-item">在线影视解析测试</a>
+</li>
+    </ul>
+  </li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Linux</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../linux/debian%E7%9A%84%E9%9D%99%E6%80%81IP/" class="dropdown-item">debian的静态IP</a>
+</li>
+            
+<li>
+    <a href="../../../linux/linuxHosts/" class="dropdown-item">linuxHosts</a>
+</li>
+            
+<li>
+    <a href="../../../linux/openwrt%20lan%E5%8F%A3%E8%AE%BE%E7%BD%AE/" class="dropdown-item">Openwrt lan口设置</a>
+</li>
+            
+<li>
+    <a href="../../../linux/pve/" class="dropdown-item">Pve</a>
+</li>
+            
+<li>
+    <a href="../../../linux/%E4%B8%80%E9%94%AE%E6%9B%B4%E6%8D%A2%E5%9B%BD%E5%86%85%E8%BD%AF%E4%BB%B6%E6%BA%90/" class="dropdown-item">一键更换国内软件源</a>
+</li>
+            
+<li>
+    <a href="../../../linux/%E4%BD%BF%E7%94%A8/" class="dropdown-item">使用</a>
+</li>
+            
+<li>
+    <a href="../../../linux/%E6%9B%B4%E6%94%B9PATH/" class="dropdown-item">更改PATH</a>
+</li>
+            
+<li>
+    <a href="../../../linux/%E7%A1%AC%E7%9B%98%E4%BF%A1%E6%81%AF/" class="dropdown-item">硬盘信息</a>
+</li>
+            
+<li>
+    <a href="../../../linux/%E8%BD%AF%E4%BB%B6%E6%BA%90/" class="dropdown-item">软件源</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Mc</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../mc/1/" class="dropdown-item">1</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Npm</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../npm/53/" class="dropdown-item">53</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Python</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../python/django/" class="dropdown-item">Django</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">文章</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../%E6%96%87%E7%AB%A0/%E6%A0%B8%E5%BC%B9%E7%BA%A7%E6%95%99%E7%A8%8B%EF%BC%9A%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%99%BD%E5%AB%96%E4%B8%8A%E7%99%BE%E4%B8%AA%E8%AE%A2%E9%98%85%E8%8A%82%E7%82%B9%E4%BB%A3%E7%90%86/" class="dropdown-item">核弹级教程：手把手教你白嫖上百个订阅节点</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">系统</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../%E7%B3%BB%E7%BB%9F/1/" class="dropdown-item">1</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">资源</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../../%E8%B5%84%E6%BA%90/2naifeimm.com/" class="dropdown-item">2naifeimm.com</a>
+</li>
+            
+<li>
+    <a href="../../../%E8%B5%84%E6%BA%90/300zxdy/" class="dropdown-item">300zxdy</a>
+</li>
+            
+<li>
+    <a href="../../../%E8%B5%84%E6%BA%90/PotPlayer%E6%9C%89%E6%83%8A%E5%96%9C/" class="dropdown-item">PotPlayer有惊喜</a>
+</li>
+            
+<li>
+    <a href="../../../%E8%B5%84%E6%BA%90/cn1opemapi/" class="dropdown-item">Cn1opemapi</a>
+</li>
+            
+<li>
+    <a href="../../../%E8%B5%84%E6%BA%90/%E5%9C%A8%E7%BA%BF%E5%BD%B1%E8%A7%86%E8%A7%A3%E6%9E%90%E6%B5%8B%E8%AF%95/" class="dropdown-item">在线影视解析测试</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Work <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../../work/%E6%8A%84%E8%A2%AD/" class="dropdown-item">抄袭</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Zh <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../../zh/xiai/" class="dropdown-item">Xiai</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../dockerapp/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../docker-compose/gitea/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#docker" class="nav-link">安装Docker</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#sudoer" class="nav-link">编辑sudoer</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#gpg" class="nav-link">添加gpg</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#_1" class="nav-link">添加软件源</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#docker_1" class="nav-link">安装docker</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#_2" class="nav-link">使用额外的数据盘</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#_3" class="nav-link">挂载数据盘</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#docker_2" class="nav-link">迁移docker磁盘</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#docker_3" class="nav-link">启动docker 服务</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#docker-compose" class="nav-link">安装 docker-compose</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#trunk" class="nav-link">在数据盘下创建trunk环境目录</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#nginx" class="nav-link">Nginx编排配置</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#docker_4" class="nav-link">docker基本命令</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#nginx_1" class="nav-link">启动nginx容器</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#mysql" class="nav-link">【额外内容】使用mysql容器</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#mysql_1" class="nav-link">拉取mysql镜像</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#mysqldocker-composeyml" class="nav-link">建立mysql配置文件docker-compose.yml</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#mysql_2" class="nav-link">启动mysql容器</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#mysql-mysql" class="nav-link">进入mysql容器, 容器内mysql客户端访问数据库</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="docker">安装Docker</h2>
+<p>安装Docker软件包</p>
+<pre><code class="language-text">apt-get install \
+ apt-get install   apt-transport-https \
+apt-get install    ca-certificates \
+ apt-get install   curl \
+ apt-get install   gnupg \
+ apt-get install   lsb-release \
+ apt-get install   sudo
+</code></pre>
+<p>进入容器
+docker exec -it alist ./alist admin</p>
+<p>docker exec -it myNodeBB /bin/sh</p>
+<h2 id="sudoer">编辑sudoer</h2>
+<pre><code class="language-text">vi /etc/sudoers
+</code></pre>
+<h2 id="gpg">添加gpg</h2>
+<pre><code class="language-text">curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+</code></pre>
+<h2 id="_1">添加软件源</h2>
+<pre><code class="language-text">echo \
+  &quot;deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian \
+  $(lsb_release -cs) stable&quot; | tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+</code></pre>
+<h2 id="docker_1">安装docker</h2>
+<pre><code class="language-text">apt-get update
+apt-get install docker-ce docker-ce-cli containerd.io
+</code></pre>
+<h2 id="_2">使用额外的数据盘</h2>
+<p>默认安装docker将会使用/var/lib/docker作为数据存放目录，可以新增额外的数据盘，以减少对根分区(/)的空间占用</p>
+<h2 id="_3">挂载数据盘</h2>
+<pre><code class="language-text"># 查看当前磁盘信息
+lsblk
+# 对第二块新磁盘进行分区
+fdisk /dev/sdb
+# 格式化数据盘微ext4格式
+mkfs.ext4 /dev/sdb1
+# 修改磁盘自启动挂载配置文件
+vi /etc/fstab
+# 添加如下信息
+/dev/sdb1       /data       ext4    defaults 0 0
+# 建立用来挂载新磁盘的目录
+mkdir /data
+# 挂载所有磁盘
+mount -a
+# 查看磁盘空间信息，检查是否挂载成功
+df -h
+</code></pre>
+<h2 id="docker_2">迁移docker磁盘</h2>
+<pre><code class="language-text"># 进入数据盘挂载目录
+cd /data
+# 新建docker数据文件目录
+mkdir docker
+# 进入原始docker数据文件目录
+cd /var/lib
+# 将新建的docker数据文件目录软链接到当前目录下
+ln -s /data/docker .
+</code></pre>
+<h2 id="docker_3">启动docker 服务</h2>
+<pre><code class="language-text">systemctl start docker
+systemctl enable docker
+</code></pre>
+<h2 id="docker-compose">安装 docker-compose</h2>
+<p>便于管理docker启动命令参数，使用compose编排</p>
+<pre><code class="language-text"># 从github下载docker-compose二进制文件
+curl -L &quot;https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)&quot; -o /usr/local/bin/docker-compose
+# 给予运行权限
+chmod +x /usr/local/bin/docker-compose
+</code></pre>
+<h2 id="trunk">在数据盘下创建trunk环境目录</h2>
+<pre><code class="language-text"># 进入数据盘
+cd /data
+# 新建trunk目录
+mkdir trunk
+# 打开docker编排文件，如果不存在则会创建
+vi docker-compose.yml
+</code></pre>
+<h2 id="nginx">Nginx编排配置</h2>
+<p>建立nginx对应docker-compose.yml</p>
+<pre><code class="language-text">version: &quot;3.1&quot;
+services:
+  nginx:
+    image: nginx
+    ports:
+    - 8080:80
+</code></pre>
+<h2 id="docker_4">docker基本命令</h2>
+<pre><code class="language-text"># 查看当前系统中已经存在的镜像
+docker images
+# 查看当前运行的容器
+docker ps -a
+</code></pre>
+<h2 id="nginx_1">启动nginx容器</h2>
+<pre><code class="language-text">docker-compose up -d
+docker-compose stop
+docker-compose rm -f
+</code></pre>
+<p>运行成功后访问地址：<a href="https://link.zhihu.com/?target=http%3A//192.168.3.33%3A8080/">http://192.168.88.83:8080/</a></p>
+<h2 id="mysql">【额外内容】使用mysql容器</h2>
+<h2 id="mysql_1">拉取mysql镜像</h2>
+<pre><code class="language-text">docker pull mysql:8.0
+</code></pre>
+<h2 id="mysqldocker-composeyml">建立mysql配置文件docker-compose.yml</h2>
+<pre><code class="language-text">version: &quot;3.1&quot;
+services:
+  mysql:
+    image: mysql:8.0
+    ports:
+    - 13306:3306
+    volumes:
+    - ./mysql_data:/var/lib/mysql
+    environment:
+    - MYSQL_ROOT_PASSWORD=mypassword
+</code></pre>
+<h2 id="mysql_2">启动mysql容器</h2>
+<pre><code class="language-text">docker-compose up -d
+</code></pre>
+<h2 id="mysql-mysql">进入mysql容器, 容器内mysql客户端访问数据库</h2>
+<pre><code class="language-text">docker exec -it trunk_mysql_1 bash
+mysql -p
+show databases;
+</code></pre>
+<h3 id="2portainer-ce"><strong>2、进行portainer-ce的安装</strong></h3>
+<p>(1)拉取portainer-ce镜像</p>
+<pre><code class="language-bash">docker pull portainer/portainer-ce
+</code></pre>
+<p>(2)下载portainer-ce汉化包并解压（注：解压进root目录下）</p>
+<pre><code class="language-python">#下载压缩包（注：汉化作者：ysp QQ：360354879，基于CE更新汉化。工作量居大，感谢作者的辛苦奉献。）
+
+
+
+wget https://imnks.com/usr/uploads/2021/11/portainer-ce-2.9.2-public-cn-1101.zip
+
+
+
+#解压压缩包
+
+
+
+unzip portainer-ce-2.9.2-public-cn-1101.zip 
+</code></pre>
+<p>(3)安装portainer</p>
+<pre><code class="language-javascript">docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data -v /root/public:/public portainer/portainer-ce
+
+
+</code></pre>
+<p>3、进行访问验证</p>
+<pre><code class="language-r">#进行本机访问：在浏览器中输入
+
+
+
+127.0.0.1:9000
+
+
+
+#：在浏览器中输入
+</code></pre>
+<pre><code>docker pull portainer/portainer*
+
+docker run -d --name portainer -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+
+
+
+</code></pre>
+<p>查询   </p>
+<pre><code>docker ps -a
+</code></pre>
+<pre><code>运行容器
+
+docker run -itd --name 2333 ubuntu
+
+docker run -itd --name phpk php
+docker run -itd --name  dbin debian
+docker run -itd --name  ok ubuntubtrj
+</code></pre>
+<pre><code>导出
+命令为: docker commit 要打包的镜像名  导出后的镜像名
+
+docker commit 48ee94be8985  ubuntubtrj
+docker commit e6f3682131a7  ubuntubtbyrj
+</code></pre>
+<p>查询</p>
+<pre><code>docker images 
+运行
+docker run -itd --name ubuntuphp ubuntu
+
+
+docker run -itd --name ubuntubtbyrjs ubuntubtbyrj
+docker run -itd --name 
+</code></pre>
+<p>docker ps -a</p>
+<p>docker start  portainer</p>
+<p>docker images </p>
+<p>docker start  portainer/portainer</p>
+<p>docker start  2</p>
+<pre><code>docker run -d \
+--name=yesplaymusic \
+-p 3310:80 \fogforest/yesplaymusic
+
+docker run -d \
+--name=L11 \
+-p 4000:4000 \xcbeyond/gitbook-builder
+
+docker run -d \
+--name=yesplaymusic \
+-p 3310:80 xiaoping378/gitbook-builder:20211125
+
+fogforest/yesplaymusic
+
+-e VUE_APP_NETEASE_API_URL=/api \
+-e VUE_APP_LASTFM_API_KEY=e375e0855eb1f42eebf0ad86595afeeb \
+-e VUE_APP_LASTFM_API_SHARED_SECRET=e75198b4ac0849b491a8fc24cd09798f
+ \
+
+</code></pre>
+<pre><code class="language-bash">docker run -d \
+--name=bookstack \
+-p 6875:80 \portainer/portainer 
+
+docker run -d \
+--name=kkk \
+-p 4000:4000 \fanxiangs/gitbook:latest
+
+</code></pre>
+<p>docker: Error response from daemon: Conflict. The container name "/yesplaymusic" is already in use by container "1977e1b63e59b121e69cf82a71855b5b9ab61e355eef4ee4efb5a6e76021b428". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.</p>
+<p>docker run -d --name gitbook -p 4000:4000 liaozhiming/gitbook:latest</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../../../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "../../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../../js/base.js"></script>
+        <script src="../../../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
